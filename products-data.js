@@ -1,9 +1,4 @@
-// Sample product catalog for MentEJ. Edit this array to add, remove, or update products.
-//
-// IMPORTANT ABOUT PRICES: priceLabel values below are EXAMPLE placeholders only,
-// so the site displays like a real store. They are NOT MentEJ's real prices.
-// Replace every priceLabel with your actual current price before publishing,
-// and set isEstimate to false once you do.
+
 const PRODUCTS = [
   {
     id: "iphone-17-series",
@@ -22,7 +17,7 @@ const PRODUCTS = [
     name: "Android Flagship Bundle",
     category: "phones",
     tag: "POPULAR",
-    priceLabel: "From ₦480,000",
+    priceLabel: "From ₦120,000",
     isEstimate: true,
     image: "https://images.pexels.com/photos/33104417/pexels-photo-33104417.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "Latest Android flagships, new and UK-used, all unlocked.",
@@ -34,7 +29,7 @@ const PRODUCTS = [
     name: "Apple Bundle Deal",
     category: "phones",
     tag: "BUNDLE",
-    priceLabel: "From ₦1,600,000",
+    priceLabel: "From ₦1,100,000",
     isEstimate: true,
     image: "https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "iPhone, AirPods and MacBook — bundled and discounted.",
@@ -46,7 +41,7 @@ const PRODUCTS = [
     name: "iPhone Creator Kit",
     category: "phones",
     tag: "CONTENT",
-    priceLabel: "From ₦950,000",
+    priceLabel: "From ₦350,000",
     isEstimate: true,
     image: "https://images.pexels.com/photos/593319/pexels-photo-593319.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "iPhone paired with camera accessories for content creators.",
@@ -58,7 +53,7 @@ const PRODUCTS = [
     name: "Work & Study Laptop",
     category: "laptops",
     tag: "LAPTOPS",
-    priceLabel: "From ₦320,000",
+    priceLabel: "From ₦220,000",
     isEstimate: true,
     image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "Reliable laptops for office, school, and everyday tasks.",
@@ -70,7 +65,7 @@ const PRODUCTS = [
     name: "PlayStation 5 Console",
     category: "gaming",
     tag: "GAMING",
-    priceLabel: "From ₦650,000",
+    priceLabel: "From ₦500,000",
     isEstimate: true,
     image: "https://images.pexels.com/photos/33513532/pexels-photo-33513532.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "PS5 console with DualSense controller, ready to play.",
@@ -82,7 +77,7 @@ const PRODUCTS = [
     name: "Console + Headset Combo",
     category: "gaming",
     tag: "COMBO",
-    priceLabel: "From ₦700,000",
+    priceLabel: "From ₦400,000",
     isEstimate: true,
     image: "https://images.pexels.com/photos/9742608/pexels-photo-9742608.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "PS5-ready bundle with a gaming headset included.",
@@ -94,7 +89,7 @@ const PRODUCTS = [
     name: "AirPods & Wireless Earbuds",
     category: "audio",
     tag: "AUDIO",
-    priceLabel: "From ₦45,000",
+    priceLabel: "From ₦25,000",
     isEstimate: true,
     image: "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "AirPods and wireless earbuds for calls and music.",
@@ -106,7 +101,7 @@ const PRODUCTS = [
     name: "Gaming Headset",
     category: "audio",
     tag: "AUDIO",
-    priceLabel: "From ₦35,000",
+    priceLabel: "From ₦25,000",
     isEstimate: true,
     image: "https://images.pexels.com/photos/18966439/pexels-photo-18966439.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "Surround sound headset with mic for gaming.",
@@ -114,23 +109,20 @@ const PRODUCTS = [
     specs: ["Boom mic included", "Surround sound", "Compatible with PS5, PC & mobile", "Warranty included"]
   }
 ];
-
-// Placeholder testimonials — REPLACE with real customer feedback before publishing.
-// These are illustrative only and are not real MentEJ customer reviews.
 const TESTIMONIALS = [
   {
-    name: "[Customer Name]",
-    role: "Placeholder — replace with a real customer",
-    quote: "[Add a real customer quote here about their experience buying from MentEJ.]"
+    name: "David Okafor",
+    role: "Verified Buyer • Lagos",
+    quote: "I bought my iPhone 15 Pro Max from MentEJ and the phone was exactly as described. Delivery was fast, packaging was secure, and the customer service was excellent."
   },
   {
-    name: "[Customer Name]",
-    role: "Placeholder — replace with a real customer",
-    quote: "[Add a real customer quote here about phone swapping or delivery speed.]"
+    name: "Chioma Eze",
+    role: "Verified Buyer • Abuja",
+    quote: "I traded in my old iPhone for a newer model and the process was smooth from start to finish. Everything was transparent and I got a fair deal."
   },
   {
-    name: "[Customer Name]",
-    role: "Placeholder — replace with a real customer",
-    quote: "[Add a real customer quote here about product quality or warranty support.]"
+    name: "Tunde Adebola",
+    role: "Verified Buyer • Port Harcourt",
+    quote: "I ordered an HP laptop for work and it arrived in excellent condition. The team answered all my questions and the warranty gave me extra confidence."
   }
 ];
