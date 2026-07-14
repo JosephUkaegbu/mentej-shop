@@ -10,7 +10,7 @@ const PRODUCTS = [
     image: "https://images.pexels.com/photos/34624326/pexels-photo-34624326.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "The newest iPhone lineup, new sealed units in stock.",
     description: "Be among the first in Computer Village to own the new iPhone 17 lineup. New sealed units are available now, with trade-in and swap options for your current phone.",
-    specs: ["Genuine Apple device", "New sealed & UK-used options", "6-month warranty included", "Trade-in accepted"]
+    specs: ["Genuine Apple device", "New sealed & UK-used options", "12-month warranty included", "Trade-in accepted"]
   },
   {
     id: "android-flagship-bundle",
@@ -22,7 +22,7 @@ const PRODUCTS = [
     image: "https://images.pexels.com/photos/33104417/pexels-photo-33104417.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "Latest Android flagships, new and UK-used, all unlocked.",
     description: "A hand-picked selection of the latest Android flagship phones. All units are fully unlocked and available in new sealed or UK-used condition, depending on your budget.",
-    specs: ["Fully unlocked", "New & UK-used available", "6-month warranty included", "Same-day Lagos delivery"]
+    specs: ["Fully unlocked", "New & UK-used available", "12-month warranty included", "Same-day Lagos delivery"]
   },
   {
     id: "apple-bundle-deal",
@@ -46,7 +46,7 @@ const PRODUCTS = [
     image: "https://images.pexels.com/photos/593319/pexels-photo-593319.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "iPhone paired with camera accessories for content creators.",
     description: "Built for creators — a capable iPhone paired with camera accessories so you can shoot, edit, and post without extra gear.",
-    specs: ["Great low-light camera", "Accessories included", "6-month warranty", "Ideal for content creators"]
+    specs: ["Great low-light camera", "Accessories included", "12-month warranty", "Ideal for content creators"]
   },
   {
     id: "work-laptop",
@@ -58,7 +58,7 @@ const PRODUCTS = [
     image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "Reliable laptops for office, school, and everyday tasks.",
     description: "A dependable laptop for office work, school assignments, and everyday browsing. Available across a range of specs and budgets — tell us what you'll be using it for and we'll recommend the right one.",
-    specs: ["New & UK-used options", "Windows pre-installed", "6-month warranty", "Free basic setup"]
+    specs: ["New & UK-used options", "Windows pre-installed", "12-month warranty", "Free basic setup"]
   },
   {
     id: "ps5-console",
@@ -94,7 +94,7 @@ const PRODUCTS = [
     image: "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=900",
     shortDesc: "AirPods and wireless earbuds for calls and music.",
     description: "Genuine AirPods and quality wireless earbud alternatives, ideal for calls, workouts, and everyday listening.",
-    specs: ["Genuine Apple & trusted alternatives", "Charging case included", "6-month warranty", "New sealed units"]
+    specs: ["Genuine Apple & trusted alternatives", "Charging case included", "12-month warranty", "New sealed units"]
   },
   {
     id: "gaming-headset",
