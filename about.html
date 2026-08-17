@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — MentEJ | Computer Village, Lagos</title>
+<meta name="description" content="About MentEJ — a genuine gadget store in Computer Village, Lagos State, Nigeria.">
+<link rel="canonical" href="https://mentej.shop/about.html">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('mentej-theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    } catch (e) {}
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand" aria-label="MentEJ home">
+      <span class="brand-mark"><img src="assets/mentej-logo.jpeg" alt="MentEJ" width="600" height="203"></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4.3" />
+          <path d="M12 2.5v2.4M12 19.1v2.4M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7" />
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.4 14.7A8.2 8.2 0 019.3 3.6 9 9 0 1021.5 15a8.9 8.9 0 01-1.1-.3Z" />
+        </svg>
+      </button>
+      <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="nav-scrim" id="navScrim"></div>
+
+<header class="page-hero">
+  <div class="container">
+    <div class="eyebrow"><span class="dot"></span> ABOUT MENTEJ</div>
+    <h1>Your trusted plug in Computer Village</h1>
+    <p>Genuine gadgets, fair prices, and a team that actually answers your questions.</p>
+  </div>
+</header>
+
+<div class="container">
+  <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>About</span></div>
+</div>
+
+<section style="padding-top:0;">
+  <div class="container about-grid">
+    <div class="about-copy" data-animate="left">
+      <p>MentEJ sits right in the heart of Computer Village, Lagos State — Nigeria's biggest tech market. We deal in genuine smartphones, laptops, gaming consoles, and audio gadgets, plus phone swapping, sourced directly to keep prices fair and quality guaranteed.</p>
+      <p>Whether you're upgrading your phone, setting up a home office, or building a full PS5 gaming corner, our team helps you pick the right device for your budget — no pressure, no wahala.</p>
+      <a href="products.html" class="btn btn-secondary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2.5 3h2l2.6 12.4a2 2 0 002 1.6h8.3a2 2 0 002-1.6L21 7H6"/></svg>
+        Browse Products
+      </a>
+    </div>
+    <div class="about-img" data-animate="right">
+      <img src="assets/hero-theme.jpeg" width="1280" height="853" alt="Inside the MentEJ showroom in Computer Village, Lagos, with staff assisting customers" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="sec-head" data-animate>
+      <span class="sec-eyebrow">Why Shop With Us</span>
+      <h2>Built on trust, not just stock</h2>
+    </div>
+    <div class="reason-list">
+      <div class="reason-row" data-animate>
+        <div class="reason-num">01</div>
+        <div class="reason-body">
+          <h3>Verified Dealer</h3>
+          <p>A known, trusted seller in Computer Village — not a random online listing.</p>
+        </div>
+      </div>
+      <div class="reason-row" data-animate style="transition-delay:70ms">
+        <div class="reason-num">02</div>
+        <div class="reason-body">
+          <h3>Genuine Warranty</h3>
+          <p>Every device we sell comes with a warranty — no "as-is, no return" surprises.</p>
+        </div>
+      </div>
+      <div class="reason-row" data-animate style="transition-delay:140ms">
+        <div class="reason-num">03</div>
+        <div class="reason-body">
+          <h3>Fair Phone Swapping</h3>
+          <p>Bring your old device, get a fair valuation, and upgrade without stress.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="brand-mark"><img src="assets/mentej-logo.jpeg" alt="MentEJ" width="600" height="203" loading="lazy" decoding="async"></span>
+        <p>Genuine smartphones, laptops, gaming consoles, audio gadgets and phone swapping — Computer Village, Lagos State, Nigeria.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="https://wa.me/2348166696433" target="_blank" rel="noopener noreferrer">WhatsApp: 0816 669 6433</a>
+        <a href="tel:07084204820">Call: 0708 420 4820</a>
+        <a href="mailto:mentejstores@gmail.com">mentejstores@gmail.com</a>
+        <a href="https://x.com/SeniorManJoe" target="_blank" rel="noopener noreferrer">x.com/SeniorManJoe</a>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 MentEJ Stores. All rights reserved.</span></div>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+
+</body>
+</html>
